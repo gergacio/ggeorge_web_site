@@ -111,7 +111,7 @@ const About = () => (
             <HobbyDiv>
             <h2>Things I am doing</h2>
             <p> 
-               I am a live music lover.I really enjoy listening bass opera singers and bulgarian folklore.
+               I am a live music lover.I really enjoy listening bass opera singers and bulgarian folk music.
             </p>
              
             </HobbyDiv>
