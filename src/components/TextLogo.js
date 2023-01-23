@@ -7,7 +7,7 @@ import Text from "./Text";
 //destructure motion
 
 const spintransition = {
-    loop: Infinity,
+    // loop: Infinity,
     duration: 4
 }
 
