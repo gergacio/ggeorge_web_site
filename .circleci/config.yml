@@ -34,7 +34,6 @@ workflows:
           branches:
             only:
               - main
-              - develop
       - deploy:
           requires:
             - test
