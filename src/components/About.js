@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 
-import Me from "./Me";
+
 
 
 // const Box = styled.div`
