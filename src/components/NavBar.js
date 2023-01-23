@@ -27,6 +27,7 @@ font-weight: 800;
 &:hover,
 &:focus{
     color: white;
+    font-size: 2rem;
 }
 &:active{
     color: red;
@@ -41,10 +42,11 @@ color: #bcbbb9;
 text-decoration: none;
 &:hover,
 &:focus{
-    color: #66E5F3;;
+    color: #0072b1;
+    font-size: 2rem;
 }
 &:active{
-    color: red;;
+    color: red;
 `
 const Ag = styled.a`
 font-size: 1.5rem;
@@ -52,10 +54,11 @@ color: #bcbbb9;
 text-decoration: none;
 &:hover,
 &:focus{
-    color: #8B0001;;  
+    color: #6e5494;
+    font-size: 2rem;
 }
 &:active{
-    color: red;;
+    color: red;
 `
 
 const NavBar = () => {

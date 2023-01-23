@@ -58,15 +58,15 @@ justify-content: flex-end;
 list-style:none;
 `
 const A = styled.a`
-color: #8B0001;
+color: #6e5494;
 font-size: 2rem;
 text-decoration: none;
 &:hover,
 &:focus{
-    color: #F22727;;
+    font-size: 2.5rem;
 }
 &:active{
-    color: #282D73;;
+    color: red;
 `
 const H = styled.h2`
 color: #38625b;
