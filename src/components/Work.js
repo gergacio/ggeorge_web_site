@@ -59,7 +59,7 @@ list-style:none;
 `
 const A = styled.a`
 color: #bcbbb9;
-font-size: 3.5rem;
+font-size: 3rem;
 text-decoration: none;
 &:hover,
 &:focus{
@@ -80,9 +80,9 @@ const Work = () => (
             <DivText>
           
                 <H>PreslaVSystem is LMS </H> 
-                <p>Simplify learning and gives confidence to its users.</p>
-                <p><A href="https://github.com/gergacio/PreslaVSystem.git" target="_blank"><FontAwesomeIcon icon="fab fa-github" /> </A></p>
-                <h2>Technologies used include:</h2>
+                <h3>Simplify learning and gives confidence to its users</h3>
+                <h3>
+                   Tools and technologies used</h3>
                 <UL>
                     <li>PostgreSQL 15</li>
                     <li>Java 19</li>
@@ -95,6 +95,7 @@ const Work = () => (
                     <li>Visual Studio Code 1.72</li>
                     <li>Intellij IDEA 2022</li>
                 </UL>
+                <p>source code <A href="https://github.com/gergacio/PreslaVSystem.git" target="_blank"><FontAwesomeIcon icon="fab fa-github" /> </A></p>
             </DivText>
             <DivImg><LmsImage /></DivImg>
       </Div>
