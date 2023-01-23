@@ -36,24 +36,25 @@ padding: 15px;
 margin: 5px;
 `
 const Al = styled.a`
-font-size: 1.5rem;
+font-size: 2rem;
 color: #bcbbb9;
 text-decoration: none;
 &:hover,
 &:focus{
-    color: #0072b1;
-   
+    color: #0072b1; 
+    background-color: white;
 }
 &:active{
     color: red;
 `
 const Ag = styled.a`
-font-size: 1.5rem;
+font-size: 2rem;
 color: #bcbbb9;
 text-decoration: none;
 &:hover,
 &:focus{
-    color: #6e5494;
+    color: black;
+    background-color: white;
    
 }
 &:active{
