@@ -27,7 +27,6 @@ font-weight: 800;
 &:hover,
 &:focus{
     color: white;
-    font-size: 2rem;
 }
 &:active{
     color: red;
@@ -43,7 +42,7 @@ text-decoration: none;
 &:hover,
 &:focus{
     color: #0072b1;
-    font-size: 2rem;
+   
 }
 &:active{
     color: red;
@@ -55,7 +54,7 @@ text-decoration: none;
 &:hover,
 &:focus{
     color: #6e5494;
-    font-size: 2rem;
+   
 }
 &:active{
     color: red;
