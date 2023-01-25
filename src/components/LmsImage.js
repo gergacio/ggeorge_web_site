@@ -5,8 +5,10 @@ const image = require("../images/lms.png");
 
 const ItemImage = styled.img `
 
-width: 100%;
+width: 80%;
 height: auto;
+padding:20px;
+margin-rigth:40px
 `
 const LmsImage = () => {
   

@@ -6,7 +6,7 @@ import NavBar from "./NavBar";
 
 const Box = styled.div`
 color: #38625b;
-background-color: black;
+background-color: #000000;
 height: 130px;
 display: flex;
 flex-direction:row; 

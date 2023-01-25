@@ -7,7 +7,7 @@ const Box = styled.div`
 margin-top:100px;
 min-height: 100vh;
 width: 100vw;
-background-color: black;
+background-color: #000000;
 display: flex;
 flex-direction:column; 
 justify-content: center;

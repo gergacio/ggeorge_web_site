@@ -53,7 +53,7 @@ color: #bcbbb9;
 text-decoration: none;
 &:hover,
 &:focus{
-    color: black;
+    color: #552084;
     background-color: white;
    
 }
