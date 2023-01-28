@@ -82,15 +82,15 @@ const About = () => (
                 <h2>Technologies I am using</h2>
                 <UL>
                     <li>MacOS 12.6 </li>
-                    <li>Git and GitHub</li>
-                    <li>PostgreSQL 15, MongoDB 6.0, Mongosh, H2</li>
-                    <li>PyTest, Jest, Cypress, JUnit 5</li>       
+                    <li>PyTest, Jest, Cypress, JUnit 5</li>   
+                    <li>PostgreSQL 15, MongoDB 6.0, H2 2.1.214</li>
                     <li>SQL, Python 3.10, JavaScript 18, Java 19</li>
                     <li>Flask 2.2.2, Express 4.18.1, Spring Boot 3.0</li>              
                     <li>HTML5, CSS3, Jinja2, Framer-motion, React 18</li>         
-                       
-                   
-                    <li>Visual Studio Code 1.72, Intellij IDEA 2022</li>                  
+                    <li>Visual Studio Code 1.72, Intellij IDEA 2022</li>  
+                    <li>Git, GitHub</li>
+                    <li>EC2, RDS, S3</li> 
+                    <li>CircleCI </li>              
                 </UL>
               </DivImg>
             <DivText>

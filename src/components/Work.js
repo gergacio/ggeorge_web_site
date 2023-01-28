@@ -90,7 +90,7 @@ const Work = () => (
     <Div>
             <DivText1>
           
-                <H>PreslaVSystemAPI</H> 
+                <H>InSevenMinutesAPI</H> 
                 {/* <h3>Simplify learning and gives confidence to its users</h3> */}
                 <h3>
                    Tools and technologies used</h3>
@@ -108,7 +108,7 @@ const Work = () => (
 
             <DivText2>
           
-          <H>PreslaVSystemClient</H> 
+          <H>InSevenMinutesClient</H> 
           {/* <h3>Simplify learning and gives confidence to its users</h3> */}
           <h3>
              Tools and technologies used</h3>
