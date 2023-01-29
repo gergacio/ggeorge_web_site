@@ -1,6 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import LmsImage from "./LmsImage";
+import LmsImageApi from "./LmsImageApi";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -81,6 +82,19 @@ text-decoration: none;
 &:active{
     color: red;
 `
+const A1 = styled.a`
+color: #bcbbb9;
+font-size: 1.5rem;
+text-decoration: none;
+&:hover,
+&:focus{
+    
+    color: #552084;
+    background-color: white;
+}
+&:active{
+    color: red;
+`
 const H = styled.h2`
 color: #38625b;
 font-size: 2rem;
@@ -103,8 +117,11 @@ const Work = () => (
                    
                 </UL>
                 <p>source code <A href="https://github.com/gergacio/preslaVSystemApi.git" target="_blank"><FontAwesomeIcon icon="fab fa-github" /> </A></p>
+                <p>in7min API endpoint example</p>
+                <p><A1 href="http://ec2-18-130-236-213.eu-west-2.compute.amazonaws.com:8080/courses" target="_blank">get courses </A1></p>
+           
             </DivText1>
-            <DivImg1><LmsImage /></DivImg1>
+            <DivImg1><LmsImageApi /></DivImg1>
 
             <DivText2>
           
@@ -122,6 +139,7 @@ const Work = () => (
              
           </UL>
           <p>source code <A href="https://github.com/gergacio/preslaVSystemClient.git" target="_blank"><FontAwesomeIcon icon="fab fa-github" /> </A></p>
+          <p>web <A href="http://in-seven-min-client.s3-website.eu-west-2.amazonaws.com/" target="_blank"> in7min </A></p>
       </DivText2>
       <DivImg2><LmsImage /></DivImg2>
       </Div>
