@@ -45,23 +45,23 @@ font-size: 1.4rem;
 
 const DivText1 = styled.div`
 grid-column: 6/11;
-grid-row: 1/2;
+grid-row: 2/2;
 order: 1;
 text-align: right;
 `
 const DivText2 = styled.div`
 grid-column: 6/11;
-grid-row: 2/2;
+grid-row: 1/2;
 order: 1;
 text-align: right;
 `
 const DivImg1 = styled.div`
 grid-column: 1/6;
-grid-row: 1/2;
+grid-row: 2/2;
 `
 const DivImg2 = styled.div`
 grid-column: 1/6;
-grid-row: 2/2;
+grid-row: 1/2;
 `
 
 
@@ -102,28 +102,7 @@ font-weight: 900;
 `
 const Work = () => (
     <Div>
-            <DivText1>
-          
-                <H>InSevenMinutesAPI</H> 
-                {/* <h3>Simplify learning and gives confidence to its users</h3> */}
-                <h3>
-                   Tools and technologies used</h3>
-                <UL>
-                    <li>PostgreSQL 15</li>
-                    <li>Java 19</li>
-                    <li>Spring Boot 3.0</li>
-                    <li>JUnit 5</li>
-                    <li>Intellij IDEA 2022</li>
-                   
-                </UL>
-                <p>source code <A href="https://github.com/gergacio/preslaVSystemApi.git" target="_blank"><FontAwesomeIcon icon="fab fa-github" /> </A></p>
-                <p>in7min API endpoint example</p>
-                <p><A1 href="http://ec2-18-130-236-213.eu-west-2.compute.amazonaws.com:8080/courses" target="_blank">get courses </A1></p>
-           
-            </DivText1>
-            <DivImg1><LmsImageApi /></DivImg1>
-
-            <DivText2>
+      <DivText2>
           
           <H>InSevenMinutesClient</H> 
           {/* <h3>Simplify learning and gives confidence to its users</h3> */}
@@ -142,6 +121,31 @@ const Work = () => (
           <p>web <A href="http://in-seven-min-client.s3-website.eu-west-2.amazonaws.com/" target="_blank"> in7min </A></p>
       </DivText2>
       <DivImg2><LmsImage /></DivImg2>
+            <DivText1>
+          
+                <H>InSevenMinutesAPI</H> 
+                {/* <h3>Simplify learning and gives confidence to its users</h3> */}
+                <h3>
+                   Tools and technologies used</h3>
+                <UL>
+                    <li>PostgreSQL 15</li>
+                    <li>Java 19</li>
+                    <li>Spring Boot 3.0</li>
+                    <li>JUnit 5</li>
+                    <li>Intellij IDEA 2022</li>
+                   
+                </UL>
+                <p>source code <A href="https://github.com/gergacio/preslaVSystemApi.git" target="_blank"><FontAwesomeIcon icon="fab fa-github" /> </A></p>
+                <p>API endpoints</p>
+                <p><A1 href="http://ec2-18-130-236-213.eu-west-2.compute.amazonaws.com:8080/courses/1" target="_blank">get course </A1></p>
+                <p><A1 href="http://ec2-18-130-236-213.eu-west-2.compute.amazonaws.com:8080/courses" target="_blank">get courses </A1></p>
+                <p><A1 href="http://ec2-18-130-236-213.eu-west-2.compute.amazonaws.com:8080/lessons/1" target="_blank">get lesson </A1></p>
+                <p><A1 href="http://ec2-18-130-236-213.eu-west-2.compute.amazonaws.com:8080/lessons" target="_blank">get lessons </A1></p>
+           
+            </DivText1>
+            <DivImg1><LmsImageApi /></DivImg1>
+
+ 
       </Div>
 
  
