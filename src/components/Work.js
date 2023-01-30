@@ -34,11 +34,11 @@ font-size: 1.4rem;
    
   }
   
-//    @media (min-width: 850px) {
-//     grid-template-columns: repeat(10,1fr);
-//     font-weight: 800;
-//     font-size: 1.4rem;
-//   }
+   @media (min-width: 850px) {
+    grid-template-columns: repeat(10,1fr);
+    font-weight: 800;
+    font-size: 1.4rem;
+  }
 
 `
 
