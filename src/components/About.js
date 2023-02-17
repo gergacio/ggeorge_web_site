@@ -98,7 +98,7 @@ const About = () => (
                 <h2>Education</h2>
                 <UL>
                     <li>Industrial Engineering at Technical University of Gabrovo</li>
-                    <li>Information Systems at Telematika College</li>
+                    <li>Computer Systems at Telematika College</li>
                     <li>Software Development SCQF Level 8 at CodeClan</li>
                     <li>Routing and Switching at Cisco Academy® </li>
                 </UL>
