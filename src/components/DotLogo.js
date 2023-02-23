@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Text from "./Text";
-
+import Dot from "./Dot";
 
 
 
@@ -9,22 +8,21 @@ import Text from "./Text";
 
 const spintransition = {
     // loop: Infinity,
-    duration: 0
+    duration: 5
 }
 
- const TextLogo = () => {
+ const DotLogo = () => {
     // const [ rotate, setRotate ] = useState(false);
     return(
             <motion.div  
-            animate={{y:50,x:0, scale:1.1}}
-            initial={{scale:0}}
+            animate={{y:0,x:60, scale:1.2}}
+            initial={{scale:0.0}}
             transition={spintransition}
             >
-            {<Text />}
-
+            {<Dot />}
             </motion.div>
 
 
     );
  };
-export default TextLogo;
+export default DotLogo;

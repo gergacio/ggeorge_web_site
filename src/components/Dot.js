@@ -1,7 +1,5 @@
 import React from "react";
 import styled from 'styled-components';
-import DotLogo from "./DotLogo";
-
 
 
 const LogoHeading = styled.h4`
@@ -15,19 +13,25 @@ const PW = styled.span`
 color:  white;
 font-weight: 450;
 `
+const PG = styled.span`
+color:  #008c00;
+font-weight: 450;
+`
+const PR = styled.span`
+color:  #F50519;
+font-weight: 450;
+`
 
-
-const Text = () => {
+const Dot = () => {
   
 
     return(
         <LogoHeading> 
-            
-            <p>Hello, I am Georgi<PW>.</PW></p>
-            <p>Passionate DevOps/Web Developer<PW>.</PW></p>
+           
+            <PW>.</PW><PG>.</PG><PR>.</PR>
         </LogoHeading>
        
     );
 }
 
-export default Text;
+export default Dot;

@@ -1,12 +1,13 @@
 import React from "react";
 import styled from 'styled-components';
 import NavBar from "./NavBar";
+import DotLogo from "./DotLogo";
 
 
 
 const Box = styled.div`
 color: #38625b;
-background-color: #000000;
+background-color: #1f2022;
 height: 130px;
 display: flex;
 flex-direction:row; 

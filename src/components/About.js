@@ -79,28 +79,54 @@ const About = () => (
 
         <Article>
             <DivImg>  
-                <h2>Technologies I am using</h2>
+                <h2>Tech Stack</h2>
                 <UL>
-                    <li>MacOS 12.6 </li>
-                    <li>PyTest, Jest, Cypress, JUnit 5</li>   
-                    <li>PostgreSQL 15, MongoDB 6.0, H2 2.1.214</li>
-                    <li>SQL, Python 3.10, JavaScript 18, Java 19</li>
-                    <li>Flask 2.2.2, Express 4.18.1, Spring Boot 3.0</li>              
-                    <li>HTML5, CSS3, Jinja2, Framer-motion, React 18</li>         
-                    <li>Visual Studio Code 1.72, Intellij IDEA 2022</li>  
-                    <li>Git, GitHub</li>
-                    <li>EC2, RDS, S3</li> 
-                    <li>CircleCI </li>              
+                    <li>OS (MacOS 12.6,  Windows 10)</li> 
+                    <br/>
+                    <li>Code Editor/IDEs (Visual Studio Code 1.72,  Intellij IDEA 2022)</li>
+                    <br/>
+                    <li>Text editors (VIM, Notepad++)</li>
+                    <br/>  
+                    <li>Databases (PostgreSQL 15, MongoDB 6.0, H2 2.1.214)</li>
+                    <br/>
+                    <li>Programming Languages (JavaScript 18, Java 19)</li>
+                    <br/>
+                    <li>Server-side Web Frameworks (Express 4.18.1, Spring Boot 3.0)</li>  
+                    <br/>            
+                    <li>Front-end Technologies (HTML5, CSS3, JS, React 18)</li>   
+                    <br/> 
+                    <li>UI design (Ant Design)</li>    
+                    <br />  
+                    <li>Animation Tools (Framer Motion 9.1.1)</li> 
+                    <br />
+                    <li>Testing Frameworks (Jest, JUnit 5)</li> 
+                    <br/>
+                    <li>Code Management Tools (Git, GitHub)</li>
+                    <br />
+                    <li>Cloud Computing (AWS)</li> 
+                    <br />
+                    <li>Containers (Docker)</li> 
+                    <br />
+                    <li>SDLC (Agile)</li>            
                 </UL>
               </DivImg>
             <DivText>
   
                 <h2>Education</h2>
                 <UL>
-                    <li>Industrial Engineering at Technical University of Gabrovo</li>
-                    <li>Computer Systems at Telematika College</li>
-                    <li>Software Development SCQF Level 8 at CodeClan</li>
-                    <li>Routing and Switching at Cisco Academy® </li>
+                    <li>Industrial Engineering at Technical University of Gabrovo.</li>
+                    <br/>
+                    <br/>
+                    <li>Computer Systems at Telematika College.</li>
+                    <br/>
+                    <br/>
+                    <li>Software Development SCQF Level 8 at CodeClan.</li>
+                    <br/>
+                    <br/>
+                    <li>Functional Programming with JavaScript at SoftUni.</li>
+                    <br/>
+                    <br/>
+                    <li>Routing and Switching at Cisco Academy®. </li>
                 </UL>
 
             </DivText>
@@ -111,9 +137,11 @@ const About = () => (
             <HobbyDiv>
             <h2>Things I am doing</h2>
             <p> 
-               I am a live music lover.I really enjoy listening bass opera singers and bulgarian folk music.
+               I am a live music lover.
             </p>
-             
+            <p>
+               I really enjoy listening bass opera singers and Bulgarian folk music.
+            </p>
             </HobbyDiv>
           
         </Article>

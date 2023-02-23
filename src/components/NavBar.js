@@ -5,6 +5,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import DotLogo from "./DotLogo";
 
 library.add(fas, fab);
 
@@ -63,7 +64,8 @@ text-decoration: none;
 
 const NavBar = () => {
   return (
-        
+    <>
+    <DotLogo/>
     <UL>
       <LI>
         <StyledLink to="/">home</StyledLink>
@@ -81,6 +83,8 @@ const NavBar = () => {
        <Al href="https://www.linkedin.com/in/georgi-georgiev-a07534ab/" target="_blank"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></Al>
       </LI> 
     </UL>
+    </>    
+
   );
 }
 
