@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from 'styled-components';
-const image = require("../images/lms.png");
+const image = require("../images/in7minLogo.png");
 
 const ItemImage = styled.img `
 
@@ -15,7 +15,8 @@ const LmsImage = () => {
 
     return(
         <div>
-             <Link><ItemImage src={image} alt="item"/></Link>          
+             <Link><ItemImage src={image} alt="item"/></Link>   
+               
         </div>
        
     );

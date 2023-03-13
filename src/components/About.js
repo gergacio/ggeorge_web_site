@@ -1,5 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
+import LmsImage from "./LmsImage";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 
@@ -20,6 +22,7 @@ import styled from 'styled-components';
 const Article = styled.article`
 padding: 180px 15px 0px 15px;
 background-color: #f4f4f4;
+// background-color: #C2DDE6;
 display: grid;
 
 @media (min-width: 550px) {
@@ -36,16 +39,19 @@ display: grid;
 
 `
 const DivImg = styled.div`
-padding: 5px;
-background-color: #ffff00;
-color: #54555C;
+padding: 1rem;
+
+background-color: #C2DDE6;
+color: #black;
 grid-column: 6/11;
 grid-row: 1/2;
 font-weight: 500;
+padding: 1rem;
 `
 const DivText = styled.div`
-padding: 5px;
-background-color: #1f2022;
+padding: 1rem;
+
+background-color: #E05915;
 color: white;
 grid-column: 1/6;
 grid-row: 1/2;
@@ -58,61 +64,84 @@ justify-content: flex-end;
 list-style:none;
 `
 const HobbyDiv = styled.div`
-padding: 5px;
-background-color: #fff;
-color: #54555C;
-grid-column: 1/8;
+padding: 1rem;
+
+background-color: #431C5D;
+color: white;
+grid-column: 1/6;
 grid-row: 2/2;
 order: 2;
 text-align: left;
 font-weight: 500;
 `
 const EduDiv = styled.div`
-padding: 5px;
-background-color: #999999;
-color: white;
-grid-column: 8/11;
+padding: 1rem;
+background-color: #12B486;
+color: #black;
+grid-column: 6/11;
 grid-row: 2/2;
 font-weight: 500;
+`
+const Work = styled.div`
+padding: 1rem;
+background-color: #CDD422;
+color: #black;
+grid-column: 1/11;
+grid-row: 3/3;
+font-weight: 800;
+font-size: 2rem;
+`
+const Ag = styled.a`
+font-size: 2.5rem;
+color: #bcbbb9;
+text-decoration: none;
+background-color: white;
+&:hover,
+&:focus{
+    color: #552084;
+    background-color: white;
+   
+}
+&:active{
+    color: #E05915;
 `
 const About = () => (
 
         <Article>
             <DivImg>  
+            <br></br>
                 <h2>Tech Stack</h2>
+                <hr/>
                 <UL>
-                    <li>OS (MacOS 12.6,  Windows 10)</li> 
                     <br/>
-                    <li>Code Editor/IDEs (Visual Studio Code 1.72,  Intellij IDEA 2022)</li>
+                    <li>Code Editor/IDE ( Visual Studio Code | Intellij IDEA )</li>
                     <br/>
-                    <li>Text editors (VIM, Notepad++)</li>
+                    <li>Text editors ( VIM | Notepad++ )</li>
                     <br/>  
-                    <li>Databases (PostgreSQL 15, MongoDB 6.0, H2 2.1.214)</li>
+                    <li>Databases ( PostgreSQL | MongoDB | H2 )</li>
                     <br/>
-                    <li>Programming Languages (JavaScript 18, Java 19)</li>
-                    <br/>
-                    <li>Server-side Web Frameworks (Express 4.18.1, Spring Boot 3.0)</li>  
+                    <li>Programming Languages ( Python | JavaScript | C# | Java )</li>
                     <br/>            
-                    <li>Front-end Technologies (HTML5, CSS3, JS, React 18)</li>   
-                    <br/> 
-                    <li>UI design (Ant Design)</li>    
-                    <br />  
-                    <li>Animation Tools (Framer Motion 9.1.1)</li> 
-                    <br />
-                    <li>Testing Frameworks (Jest, JUnit 5)</li> 
+                    <li>Front-end Technologies ( React | Ant Design | Framer Motion)</li>   
                     <br/>
-                    <li>Code Management Tools (Git, GitHub)</li>
+                    <li>Web Frameworks ( Django | Express | Spring Boot )</li>  
+                    <br/>
+                    <li>Testing Frameworks ( Jest | JUnit 5 )</li> 
+                    <br/>
+                    <li>Code Management Tools ( Git | GitHub )</li>
                     <br />
-                    <li>Cloud Computing (AWS)</li> 
+                    <li>Cloud Computing ( AWS )</li> 
                     <br />
-                    <li>Containers (Docker)</li> 
+                    <li>Containers ( Docker )</li> 
                     <br />
-                    <li>SDLC (Agile)</li>            
+                    <li>SDLC ( Agile )</li>            
                 </UL>
               </DivImg>
             <DivText>
-  
+             <br></br>
                 <h2>Education</h2>
+                <br></br>
+                <br></br>
                 <UL>
                     <li>Industrial Engineering at Technical University of Gabrovo.</li>
                     <br/>
@@ -131,10 +160,15 @@ const About = () => (
 
             </DivText>
             <EduDiv>
-            <h2>Future plans</h2>
-              <p>Start clarinet lessons.</p>
+            <br></br>
+            <h2>Future Plans</h2>
+            <p> 
+            Start learning clarinet.
+            </p>
+           
             </EduDiv>
             <HobbyDiv>
+            <br></br>
             <h2>Things I am doing</h2>
             <p> 
                I am a live music lover.
@@ -143,6 +177,15 @@ const About = () => (
                I really enjoy listening bass opera singers and Bulgarian folk music.
             </p>
             </HobbyDiv>
+            <Work>
+            <br></br>
+            <h1><strong>WORK</strong><span>  <Ag href="https://github.com/gergacio/In7Minutes." target="_blank"><FontAwesomeIcon icon="fab fa-github" /></Ag></span></h1>
+            <hr/>
+            <br></br>
+            <br></br>
+              <LmsImage/>
+              
+            </Work>
           
         </Article>
      

@@ -14,11 +14,11 @@ color:  white;
 font-weight: 450;
 `
 const PG = styled.span`
-color:  #008c00;
+color:  #12B486;
 font-weight: 450;
 `
 const PR = styled.span`
-color:  #F50519;
+color:  #E05915;
 font-weight: 450;
 `
 

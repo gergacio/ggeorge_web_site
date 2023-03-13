@@ -7,7 +7,7 @@ import DotLogo from "./DotLogo";
 
 const Box = styled.div`
 color: #38625b;
-background-color: #1f2022;
+background-color: #323639;
 height: 130px;
 display: flex;
 flex-direction:row; 

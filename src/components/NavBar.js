@@ -30,7 +30,7 @@ font-weight: 800;
     color: white;
 }
 &:active{
-    color: red;
+    color: #E05915;
 `
 const LI = styled.li`
 padding: 15px;
@@ -46,7 +46,7 @@ text-decoration: none;
     background-color: white;
 }
 &:active{
-    color: red;
+    color: #E05915;
 `
 const Ag = styled.a`
 font-size: 2rem;
@@ -59,7 +59,7 @@ text-decoration: none;
    
 }
 &:active{
-    color: red;
+    color: #E05915;
 `
 
 const NavBar = () => {
@@ -73,9 +73,9 @@ const NavBar = () => {
       <LI>
         <StyledLink to="/about">about</StyledLink>
       </LI> 
-      <LI>
+      {/* <LI>
         <StyledLink to="/work">work</StyledLink>
-      </LI> 
+      </LI>  */}
       <LI>
        <Ag href="https://github.com/gergacio" target="_blank"><FontAwesomeIcon icon="fab fa-github" /></Ag>
       </LI> 

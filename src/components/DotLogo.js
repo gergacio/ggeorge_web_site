@@ -8,7 +8,7 @@ import Dot from "./Dot";
 
 const spintransition = {
     // loop: Infinity,
-    duration: 5
+    duration: 3
 }
 
  const DotLogo = () => {
