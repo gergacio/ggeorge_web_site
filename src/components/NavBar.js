@@ -65,7 +65,7 @@ text-decoration: none;
 const NavBar = () => {
   return (
     <>
-    <DotLogo/>
+    {/* <DotLogo/> */}
     <UL>
       <LI>
         <StyledLink to="/">home</StyledLink>

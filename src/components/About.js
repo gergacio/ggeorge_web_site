@@ -89,10 +89,10 @@ color: #black;
 grid-column: 1/11;
 grid-row: 3/3;
 font-weight: 800;
-font-size: 2rem;
+font-size: 1.5rem;
 `
 const Ag = styled.a`
-font-size: 2.5rem;
+font-size: 2rem;
 color: #bcbbb9;
 text-decoration: none;
 background-color: white;
@@ -115,8 +115,6 @@ const About = () => (
                 <UL>
                     <br/>
                     <li>Code Editor/IDE ( Visual Studio Code | Intellij IDEA )</li>
-                    <br/>
-                    <li>Text editors ( VIM | Notepad++ )</li>
                     <br/>  
                     <li>Databases ( PostgreSQL | MongoDB | H2 )</li>
                     <br/>
@@ -130,7 +128,7 @@ const About = () => (
                     <br/>
                     <li>Code Management Tools ( Git | GitHub )</li>
                     <br />
-                    <li>Cloud Computing ( AWS )</li> 
+                    <li>Cloud Computing ( AWS ) </li> 
                     <br />
                     <li>Containers ( Docker )</li> 
                     <br />
@@ -140,6 +138,7 @@ const About = () => (
             <DivText>
              <br></br>
                 <h2>Education</h2>
+                <br></br>
                 <br></br>
                 <br></br>
                 <UL>
@@ -160,12 +159,11 @@ const About = () => (
 
             </DivText>
             <EduDiv>
-            <br></br>
-            <h2>Future Plans</h2>
-            <p> 
-            Start learning clarinet.
-            </p>
-           
+              <br></br>
+              <h2>Future Plans</h2>
+              <p> 
+              Start learning clarinet.
+              </p>
             </EduDiv>
             <HobbyDiv>
             <br></br>
@@ -176,12 +174,13 @@ const About = () => (
             <p>
                I really enjoy listening bass opera singers and Bulgarian folk music.
             </p>
+            <br></br>
+            <br></br>
+            <br></br>
             </HobbyDiv>
             <Work>
             <br></br>
-            <h1><strong>WORK</strong><span>  <Ag href="https://github.com/gergacio/In7Minutes." target="_blank"><FontAwesomeIcon icon="fab fa-github" /></Ag></span></h1>
-            <hr/>
-            <br></br>
+            <h1><strong>WORK</strong><span> <Ag href="https://github.com/gergacio/In7Minutes." target="_blank"><FontAwesomeIcon icon="fab fa-github" /></Ag></span></h1>
             <br></br>
               <LmsImage/>
               
